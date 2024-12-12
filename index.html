@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PortFolio-CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="container">
+        <!-- navbar begins -->
+        <div class="navbar">
+          <div class="nav-left">
+            <img src="images/p.png" alt="logo-p" class="logo" />
+            <div class="logo-text">rashannjeet Paul</div>
+          </div>
+          <div class="nav-right">
+            <div><a href="#projects">Projects</a></div>
+            <div><a href="#skills">Skills</a></div>
+            <div><a href="#contact">Contact Me</a></div>
+          </div>
+        </div>
+        <!-- Navbar ends -->
+
+        <!-- hero section begins -->
+        <div class="hero-section">
+          <div class="hero-left">
+            <div class="hero-heading">Hi!Tech Giants</div>
+            <div id="hero-running-text" class="hero-heading">
+              I am <span class="role"></span>
+            </div>
+            <div class="hero-description">
+              I am a software developer and here is my portfolio website.Here
+              you will learn about my journey as a software developer.
+            </div>
+            <div class="hero-btn">Hire me</div>
+          </div>
+          <div class="hero-right">
+            <div class="absolute icons" id="dot">
+              <img src="images/User-assets/dots.png" alt="dot" />
+            </div>
+            <div class="absolute icons" id="cube">
+              <img src="images/User-assets/cube.png" alt="cube" />
+            </div>
+            <div class="absolute icons" id="circle">
+              <img src="images/User-assets/circle.png" alt="circle" />
+            </div>
+            <div class="absolute icons" id="zig">
+              <img src="images/User-assets/zigzags.png" alt="zig" />
+            </div>
+            <div class="absolute icons" id="plus">
+              <img src="images/User-assets/plus.png" alt="plus" />
+            </div>
+            <div id="user">
+              <img src="images/User-assets/self.jpg" alt="user" class="self" />
+            </div>
+          </div>
+          <div class="faded-text">Prashannjeet Paul</div>
+        </div>
+        <!-- Hero section ends -->
+
+        <!-- Project section Begins -->
+        <div class="project-section">
+          <div class="project-heading">Projects</div>
+          <div class="project-container">
+            <div class="card-project1">
+              <div class="project-number">01</div>
+              <div class="project-content">
+                <div class="project-skills-container">
+                  <img src="images/Stack/HTML.png" alt="html" class="skills" />
+                  <img src="images/Stack/CSS.png" alt="css" class="skills" />
+                  <img
+                    src="images/Stack/Express.png"
+                    alt="express"
+                    class="skills"
+                  />
+                  <img
+                    src="images/Stack/React.png"
+                    alt="react"
+                    class="skills"
+                  />
+                  <img
+                    src="images/Stack/NextJsCircle.png"
+                    alt="nextjs"
+                    class="skills"
+                  />
+                  <img src="images/Stack/js.png" alt="js" class="skills" />
+                  <img src="images/Stack/node.png" alt="node" class="skills" />
+                </div>
+                <div class="project1-heading">OLA MAPS</div>
+                <div class="project1-description">
+                  Designed and Devloped user interface of Ola maps to find the
+                  nearest location of charging points
+                </div>
+                <div id="project1-btn" class="hero-btn">Read more</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script
+      src="https://kit.fontawesome.com/58a810656e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var typedData = new Typed(".role", {
+        strings: [
+          "Prashannjeet Paul",
+          "Full Stack Developer",
+          "Frontend Developer",
+          "Backend Developer",
+          "Coder",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+      });
+    </script>
+  </body>
+</html>
